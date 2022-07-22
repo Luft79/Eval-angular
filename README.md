@@ -1,27 +1,22 @@
-# EvalAgular
+## Question de cours
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+#1 HttpClientModule
 
-## Development server
+#2 d'appliquer une classe css .red à l'élément concerné si la condition est respecté.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#3 npm install
 
-## Code scaffolding
+#4 const définie une variable constante qui n'est pas voué à bouger alors que let permet de déclaré une variable mouvante...
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#5 app-component.html : permet d'afficher dans le html les propriétés du component;
+app-component.scss : permet de mettre en forme l'affichage html et de déclarer des classes css qui pourront être réutilisé dans le html.
+app-component.ts : permet de définir le comportement logique du component en language typescript et donc de mettre en oeuvre les attributs et méthodes du component particulière à celui-ci.
+app-component.spec.ts: travail à la compilation du code générer dans le component...
 
-## Build
+#6 Le code inscrit dans le bouton permet sur l'événement click de lancer la méthode superFonctionDeClic définit dans le component.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#7 ng generate component + nom du component ou ng g c + nom du component
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#8 display : block  ==> affiche l'élément concerné
+    display: none ==> masque l'élément concerné
+    visibility : visible ou hidden, respectivement rend visible ou caché l'élément concerné.

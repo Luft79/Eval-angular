@@ -1,0 +1,23 @@
+h1{
+    color: lightslategray;
+    text-decoration: underline;
+}
+
+button{
+    color: lightcyan;
+    font-weight: bold;
+}
+
+table{
+    table-layout: fixed;
+    border: solid 3px grey;
+    opacity: 0.65;
+
+    th{
+        font-weight: bolder;
+    }
+
+    tr{
+        font-weight: 350;
+    }
+}

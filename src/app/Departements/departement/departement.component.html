@@ -1,0 +1,23 @@
+<h1 class="text-center">Les Départements Français</h1>
+
+
+<div class="container">
+    <button routerLink="" class="btn btn-danger mb-3">Voir les Régions</button>
+
+  <table class="table table-stripped">
+    <thead>
+      <tr>
+        <th scope="col" class="text-center">Nom</th>
+        <th scope="col" class="text-center">Code</th>
+        <th scope="col" class="text-center">Code Région</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let departement of departements">
+      <tr>
+        <th scope="row" class="text-center">{{ departement.nom }}</th>
+        <td class="text-center">{{ departement.code }}</td>
+        <td class="text-center">{{ departement.codeRegion }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

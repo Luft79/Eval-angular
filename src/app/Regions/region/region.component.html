@@ -1,0 +1,21 @@
+<h1 class="text-center mb-3">Les Régions Françaises</h1>
+
+<div class="container">
+  <button routerLink="Departements" class="btn btn-primary mb-3">
+    Voir les Départements
+  </button>
+  <table class="table table-secondary table-striped">
+    <thead>
+      <tr>
+        <th scope="col" class="text-center"><strong>Nom</strong></th>
+        <th scope="col" class="text-center"><strong>Code</strong></th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let region of regions">
+      <tr>
+        <th scope="row" class="text-center">{{ region.nom }}</th>
+        <td class="text-center">{{ region.code }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
